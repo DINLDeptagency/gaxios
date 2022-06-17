@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "git": {
+        "name": ".",
+        "remote": "https://github.com/googleapis/gaxios.git",
+        "sha": "2a3a91e4c694de3b3eebde0e1d56a8f44a006392"
+      }
+    },
+    {
+      "git": {
+        "name": "synthtool",
+        "remote": "https://github.com/googleapis/synthtool.git",
+        "sha": "799d8e6522c1ef7cb55a70d9ea0b15e045c3d00b"
+      }
+    }
+  ]
+}
