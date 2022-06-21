@@ -7,26 +7,6 @@
   "files": [
     "build/src"
   ],
-  "scripts": {
-    "lint": "gts check",
-    "test": "c8 mocha build/test",
-    "presystem-test": "npm run compile",
-    "system-test": "mocha build/system-test --timeout 40000",
-    "compile": "tsc -p .",
-    "fix": "gts fix",
-    "prepare": "npm run compile",
-    "pretest": "npm run compile",
-    "webpack": "webpack",
-    "prebrowser-test": "npm run compile",
-    "browser-test": "node build/browser-test/browser-test-runner.js",
-    "docs": "compodoc src/",
-    "docs-test": "linkinator docs",
-    "predocs-test": "npm run docs",
-    "samples-test": "cd samples/ && npm link ../ && npm test && cd ../",
-    "prelint": "cd samples; npm link ../; npm install",
-    "clean": "gts clean",
-    "precompile": "gts clean"
-  },
   "repository": "googleapis/gaxios",
   "keywords": [
     "google"
